@@ -1,11 +1,11 @@
-# retrun用法
+retrun用法
 def baseball_team_list
 	["Yankees", "Giants", "Cubs"]
 end
 
 def second_baseball_item_list
-	x = 5
-	return ["Yankees", "Giants", "Cubs"] if x == 10
+	x = 9
+	return ["Yankees", "Giants", "Cubs"] if x == 10 #回傳這行, 如果x=10
 	["Redsox", "Angels"]
 end
 
@@ -30,14 +30,6 @@ p Invoice.print_out
 #Instance method
 i = Invoice.new 
 p i.convert_to_pdf
-
-#named method
-# def print_address city:, state:, zip:
-# puts city
-# puts state
-# puts zip
-# end
-# print_address city: "Taipei", state: "US", zip: 33503485908
 
 
 
