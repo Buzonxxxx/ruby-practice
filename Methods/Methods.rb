@@ -1,4 +1,4 @@
-retrun用法
+#retrun用法
 def baseball_team_list
 	["Yankees", "Giants", "Cubs"]
 end
