@@ -31,6 +31,7 @@ roster 'Louis', 'Jack', 'Ted', 'Sam', 'Jay'
 # }
 # roster data
 
+#splat 
 def invoice options={}
 	puts options[:company]
 	puts options[:total]
