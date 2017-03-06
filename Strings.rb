@@ -30,6 +30,7 @@ p str.strip
 str = "This is a good month"
 p str.split.size #算幾個字
 p str.split(//).size #算幾個字母
+# p str.split(//)
 
 
 
