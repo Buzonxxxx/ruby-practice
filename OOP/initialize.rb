@@ -20,8 +20,4 @@ api = ApiConnector.new(title: "Google", description: "Search engine", url: "www.
 api.testing_initialize
 
 
-class SmsConnector < ApiConnector
-end
-api = SmsConnector.new(title: "Google", description: "Search engine", url: "www.yahoo.com")
-api.testing_initialize
 
