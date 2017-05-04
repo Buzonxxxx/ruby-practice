@@ -1,17 +1,32 @@
 #hash
 #type1
-positions = {first_base: "Chris Carter", second_base: "Jose Altuve", short_stop: "Carlos Correa"}
-p positions
+# position1 = {
+# 			first_base: "Chris Carter", 
+# 			second_base: "Jose Altuve", 
+# 			short_stop: "Carlos Correa"
+# 			}
+# p position1
+
 #type2
-positions = {"first_base" => "Chris Carter", "second_base" => "Jose Altuve", "short_stop" => "Carlos Correa"}
-p positions
+position2 = {
+			:first_base => "Chris Carter", 
+			:second_base => "Jose Altuve", 
+			:short_stop => "Carlos Correa"
+			}
+p position2
+
 #type3
-positions = {:first_base => "Chris Carter", :second_base => "Jose Altuve", :short_stop => "Carlos Correa"}
-p positions
+position3 = {
+			"first_base" => "Chris Carter", 
+			"second_base" => "Jose Altuve", 
+			"short_stop" => "Carlos Correa"
+			}
+p position3
 
 #get hash value
-p positions[:second_base]
-p positions[:short_stop]
+p position2[:second_base]
+p position2[:short_stop]
+p position3["short_stop"]
 
 #delete in hash
  people = {:jordan => 22, :chris => 10, :John => 15 }

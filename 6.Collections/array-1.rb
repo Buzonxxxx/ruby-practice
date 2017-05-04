@@ -9,11 +9,12 @@
  p b
  p b.length
   	
+ #delete value 4 	
  b.delete(4)
  p b
  p b.length
 
- #delete at 	
+ #delete at => delete element in position 	
  c = b.delete_at(2)
  p b
  p b.length

@@ -11,7 +11,7 @@ p clients.join('&')
 p clients.push("WebTV")
 #multiple push
 p clients.push("auHikari", "Chromecast")
-#pop one item
+#pop out last one item
 p clients.pop
 p clients
 #pop last two items
