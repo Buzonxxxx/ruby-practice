@@ -1,6 +1,6 @@
 class ApiConnector
-	attr_accessor :title, :deacription, :url
-
+	attr_accessor :title, :description, :url
+#getter, setter
 	def test_method
 	puts "testing class call "
 	end

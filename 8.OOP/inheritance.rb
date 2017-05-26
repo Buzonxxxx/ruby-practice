@@ -48,11 +48,11 @@ class MailConnector < ApiConnector
 		
 	end
 end
-# sms = SmsConnector.new(title: "Google", description: "Search engine", url: "www.yahoo.com")
-# phone = PhoneConnector.new(title: "Google", description: "Search engine", url: "www.yahoo.com")
+sms = SmsConnector.new(title: "Google", description: "Search engine", url: "www.yahoo.com")
+phone = PhoneConnector.new(title: "Google", description: "Search engine", url: "www.yahoo.com")
 mail = MailConnector.new(title: "Google", description: "Search engine", url: "www.yahoo.com")
 
-# sms.send_sms
-# phone.send_call
+sms.send_sms
+phone.send_call
 mail.API_logger
 

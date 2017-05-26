@@ -10,5 +10,5 @@ end
 begin
 puts 10/0
 	rescue ZeroDivisionError => e
-		error_logger("rescue error...: #{e} ar #{Time.now}")
+		error_logger("rescue error...: #{e} at #{Time.now}")
 end
