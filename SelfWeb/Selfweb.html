@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
    <head> 
-      <title>My Blog</title> 
+   	<link rel="stylesheet" href="Selfweb.css">
+    <title>My Blog</title> 
    </head>
    <body>
    <!-- Header start -->
@@ -10,10 +11,20 @@
    
    <!-- About Me section start -->
     <h1>About Me</h1> 
-    <p>
-    	Hey! I'm <strong>Louis</strong>.
-    </p>
+    <p>Hey! I'm <strong>Louis Liao</strong>. a QA expert, automation programmer and agile believer.</p>  
+
+    <p>I have worked at HTC for over 8 years and lead the QA team to deliver the best Android software quality. Now I am working in KKStream(an OTT video service provider company) and responsible for secure product quality in Web, iOS and Android.</p> 
+
+    <p>I enjoy exploring the world, learning everything which I'm not familiar with and thinking every possibile aspect to test software.</p>
+
+    <p>I am currently a Ruby enthusiast and use Ruby to develop automation programs.</p>
+
+    <p>I like triathlon and weight training.</p>
+
+    <p>I currently live in Taiper, Taiwan.</p>
+	<div id="quote">
 	<p>"Declare variables, not war"</p>
+	</div>
 	<!-- About Me section end -->
 
 	<!-- My skill section start -->
@@ -50,9 +61,9 @@
 		<tr>
 			<th>06:30 - 08:30</th>
 			<td>Workout</td>
-			<td>麥當勞</td>
 			<td>Workout</td>
-			<td>麥當勞</td>
+			<td>Workout</td>
+			<td>Workout</td>
 			<td>Workout</td>
 		</tr>
 		<tr>
@@ -67,9 +78,9 @@
 			<th>12:30 - 14:00</th>
 			<td></td>
 			<td>Run</td>
-			<td></td>
 			<td>Run</td>
-			<td></td>
+			<td>Run</td>
+			<td>Run</td>
 		</tr>
 		<tr>
 			<th>18:30 - 19:30</th>
@@ -84,13 +95,24 @@
 
 	<!-- Contact me section start -->
 	<h1>Contact me</h1>
-	<form>
+	<form autocomplete="on">
 		<p>Name:</p>
-   		<input type="text" name="name" /><br />
+   		<input type="text" name="name" required >
+   		<p>Gender:</p>
+   		<input id="Gender" type="text" list="Genders" />
+		<datalist id="Genders">
+   			<option value="Male">
+   			<option value="Female">
+		</datalist>
+		<p>URL:</p>
+		<input id="url" name="url" type="url" placeholder="example.com" />
+		<br />
+		<p>Tel number:</p>
+		<input id="tel" name="tel" type="tel" placeholder="(02)555-1211" />
    		<p>Email address:</p>
-   		<input type="email" name="email" />
+   		<input type="email" name="email" placeholder="email@example.com" required>
    		<p>Message:</p>
-   		<textarea name="message"></textarea>
+   		<textarea name="message" placeholder="Leave message..." required></textarea>
    		<br/>
    		<input type="submit" value="SEND" />
 	</form>
@@ -111,32 +133,6 @@
             <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" width="50px" height="50px" /></a> 
             <br/>           
 	<!-- Follow me section end -->
-	<!-- Audio start-->
-	<!-- 
-	<audio controls autoplay>
-   		<source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/mpeg">
-   		Audio element not supported by your browser. 
-	</audio> 
-	-->
-	<!-- Audio end -->
-
-	<!-- Video start -->
-	<!-- 
-	<video controls autoplay>
-   		<source src="http://www.sololearn.com/uploads/video.mp4" type="video/mp4">
-   		<source src="http://www.sololearn.com/uploads/video.ogg" type="video/ogg">
-   		Video is not supported by your browser
-	</video>	 -->
-	<!-- Video end -->
-	 
-	<!-- SVG start -->
-	<!-- <svg width="1000" height="250">
-    	<rect width="150" height="150" fill="orange">
-        <animate attributeName="x" from="0" to="300"
-      	dur="3s" fill="freeze" repeatCount="indefinite"/> 
-    	</rect>
-	</svg> --> 
-	<!-- SVG end -->
 	
    </body>
    
