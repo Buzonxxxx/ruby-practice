@@ -1,7 +1,26 @@
-/*p {
-   color:black;  
+td.Workout {
+   color:purple;  
 }
-*/
+
+td.Basketball{
+	color: purple
+}
+
+td.Run {
+	color:purple;
+}
+
+td.Cycling{
+	color:purple;
+}
+
+td.Coding{
+	color: green
+}
+
+td.Off{
+	color: lightgrey
+}
 #quote {
 	color: blue;
 }
