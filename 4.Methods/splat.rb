@@ -1,4 +1,4 @@
-#The splat allows developers to pass an array of values into a method 
+2#The splat allows developers to pass an array of values into a method 
 
 #traditional
 def roster player_1, player_2, player_3
